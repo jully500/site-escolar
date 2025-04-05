@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Exemplo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0066cc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #004080;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .fotos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .fotos img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    .calendario table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .calendario th, .calendario td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Escola Exemplo</h1>
+    <p>Educação de qualidade para todos</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#noticias">Notícias</a>
+    <a href="#semana">Semana</a>
+    <a href="#fotos">Fotos</a>
+    <a href="#calendario">Calendário</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre a Escola</h2>
+      <p>Somos uma instituição comprometida com o futuro dos nossos alunos, oferecendo ensino de qualidade desde 1995.</p>
+    </section>
+
+    <section id="noticias">
+      <h2>Últimas Notícias</h2>
+      <ul>
+        <li>Semana da Ciência começa segunda-feira!</li>
+        <li>Alunos do 3º ano participam da Feira de Profissões.</li>
+        <li>Inscrições abertas para o cursinho preparatório ENEM.</li>
+      </ul>
+    </section>
+
+    <section id="semana">
+      <h2>Notícias da Semana</h2>
+      <ul>
+        <li>Projeto Meio Ambiente é destaque com participação dos alunos do 1º ano.</li>
+        <li>Nova biblioteca digital foi inaugurada com mais de 500 títulos disponíveis.</li>
+        <li>Campeonato Interclasses começa na próxima sexta-feira.</li>
+      </ul>
+    </section>
+
+    <section id="fotos">
+      <h2>Galeria de Fotos</h2>
+      <div class="fotos">
+        <img src="https://via.placeholder.com/200" alt="Foto 1">
+        <img src="https://via.placeholder.com/200" alt="Foto 2">
+        <img src="https://via.placeholder.com/200" alt="Foto 3">
+      </div>
+    </section>
+
+    <section id="calendario">
+      <h2>Calendário Escolar</h2>
+      <div class="calendario">
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Evento</th>
+          </tr>
+          <tr>
+            <td>10/04</td>
+            <td>Reunião de Pais</td>
+          </tr>
+          <tr>
+            <td>15/04</td>
+            <td>Feira Cultural</td>
+          </tr>
+          <tr>
+            <td>22/04</td>
+            <td>Prova Bimestral</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: contato@escolaexemplo.com.br</p>
+      <p>Telefone: (11) 1234-5678</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Escola Exemplo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
